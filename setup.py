@@ -44,7 +44,7 @@ setup(
         "Large Language Models",
     ],
     license="MIT License",
-    packages=find_packages(include=f"{PKG_NAME}.*"),
+    packages=find_packages(include=[PKG_NAME, f"{PKG_NAME}.*"]),
     include_package_data=True,
     zip_safe=False,
     install_requires=_read_install_requires(),

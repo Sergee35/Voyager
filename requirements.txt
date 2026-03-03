@@ -1,14 +1,13 @@
 tqdm
-langchain
+langchain<0.1
+openai<1
 javascript
 setuptools
-openai
 chardet
 cchardet
 chromadb==0.3.29
 tiktoken
-requests
-setuptools
+requests<2.32
 gymnasium
 psutil
 minecraft_launcher_lib

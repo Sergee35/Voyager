@@ -47,6 +47,14 @@ cd Voyager
 pip install -e .
 ```
 
+## Quick Windows setup (generate one-click .bat)
+```
+python installation/bootstrap_windows.py
+install_voyager.bat
+```
+
+This creates `install_voyager.bat` in the repo root. Run it to install Python and Node dependencies automatically.
+
 ## Node.js Install
 In addition to the Python dependencies, you need to install the following Node.js packages:
 ```
